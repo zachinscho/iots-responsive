@@ -1,0 +1,106 @@
+/*  
+Theme Name: IOTS responsive
+Theme URI:
+Description: Theme for the Inn on the Sound
+Version: 1.0
+Author: Zach Inscho
+Author URI: http://www.zachinscho.com/
+
+Theme last updated:
+*/
+
+/* Resets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td { 
+	margin:0; 
+	padding:0; 
+}
+
+table { 
+	border-collapse:collapse; 
+	border-spacing:0; 
+}
+
+fieldset, img { 
+	border:0; 
+}
+
+address, caption, cite, code, dfn, em, strong, th, var { 
+	font-style:normal; 
+	font-weight:normal; 
+}
+
+caption, th { 
+	text-align:left;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	font-size:100%; 
+	font-weight:normal; 
+}
+
+q:before, q:after { 
+	content:'';
+}
+
+strong { 
+	font-weight:bold;
+}
+
+em { 
+	font-style:italic;
+}
+
+a img { 
+	border:none 
+}
+
+div {
+	position:relative;
+}
+
+
+/* Wordpress Defaults
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.aligncenter { 
+	display:block; 
+	margin:0 auto;
+}
+
+.alignleft { 
+	float:left;
+	margin:10px 10px 0 0;
+}
+
+.alignright { 
+	float:right;
+	margin:10px 0 0 10px;
+}
+
+.wp-caption { 
+	border:1px solid #666; 
+	text-align:center; 
+	background:#ccc; 
+	padding:10px; 
+	margin:10px 
+}
+
+
+/* Browser Adjustments
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}          
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
