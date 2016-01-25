@@ -1,0 +1,365 @@
+* {
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+  color: #000000;
+  font: 12px "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+  background: #99997a; }
+
+/* Resets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+*, html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td {
+  margin: 0;
+  padding: 0; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+fieldset, img {
+  border: 0; }
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal; }
+
+caption, th {
+  text-align: left; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal; }
+
+q:before, q:after {
+  content: ''; }
+
+strong {
+  font-weight: bold; }
+
+em {
+  font-style: italic; }
+
+a img {
+  border: none; }
+
+div {
+  position: relative; }
+
+/* Main Styles	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.MainTitle {
+  text-decoration: underline;
+  color: Black; }
+
+.Mode1 .MainTitle {
+  font-size: 16pt; }
+
+.Mode2 .MainTitle {
+  font-size: 18pt; }
+
+sd
+.ModeNew #wrapper {
+  margin: 0px auto 0px auto;
+  padding: 0px;
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+  background: #4D6EB0; }
+  @media (min-width: 768px) {
+    sd
+.ModeNew #wrapper {
+      width: 832px; } }
+
+#wrapper {
+  margin: 0px auto 0px auto;
+  padding: 0px;
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+  background: #BFBF99; }
+  @media (min-width: 768px) {
+    #wrapper {
+      width: 832px; } }
+
+header, #content, #sidebar, #sidebar2, #footer, .widget {
+  overflow: hidden; }
+
+p {
+  margin: 0.7em 0;
+  line-height: 1.6em;
+  text-align: center; }
+
+header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background: #BFBF99;
+  height: 120px; }
+  header #logo {
+    margin: 10px 0 0px 10px;
+    float: left;
+    width: 460px; }
+    header #logo img {
+      height: 96px;
+      width: 100%;
+      border-width: 0px; }
+      @media (min-width: 447px) {
+        header #logo img {
+          width: 447px; } }
+  header #headerbox {
+    float: left;
+    margin: 10px 10px 10px 20px;
+    width: 324px;
+    height: 96px; }
+    header #headerbox a {
+      display: block; }
+
+#frame {
+  float: left; }
+
+.container {
+  clear: both;
+  /*background:#ffffff url(images/columnOld.gif) repeat-y 50%;*/
+  margin: 10px 10px 10px 10px;
+  float: left;
+  width: 808px;
+  border: solid 1px #8a8a8a;
+  padding-bottom: 10px; }
+
+.content {
+  width: 790px;
+  margin-left: 10px;
+  margin-top: 10px;
+  float: left;
+  padding-bottom: 10px;
+  background: #ecece0; }
+
+/* Sidebar Definitionsbackground:#EBEDF2; */
+#underhead {
+  width: 100%;
+  text-align: center;
+  background: #99997a; }
+  #underhead nav {
+    float: left;
+    background: #99997a;
+    padding: 0px 0px 0px 0px;
+    margin: 3px 0px 3px 0px;
+    width: 100%; }
+    #underhead nav h2 {
+      font-size: 14px;
+      font-weight: bold;
+      padding: 10px 15px 10px 15px; }
+    #underhead nav a {
+      padding: 6px 6px 6px 4px;
+      font-family: "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+      font-size: 12px;
+      font-weight: bold;
+      color: #EBEDF2;
+      text-align: left;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      border-right: 1px solid #cfdad5; }
+      #underhead nav a:hover {
+        padding: 6px 6px 6px 4px;
+        font-family: "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: #000000;
+        text-align: left;
+        text-decoration: none;
+        border-bottom: 1px solid #cfdad5;
+        background-color: #E6E6B8; }
+
+#sidebar ul :hover {
+  list-style: none; }
+
+#sidebar li {
+  padding: 0px 0px 0px 0px;
+  display: inline; }
+
+#sidebar ul {
+  list-style: none;
+  margin: 0px; }
+
+#sidebar ul li {
+  padding: 0px 0px 0px 0px;
+  background-color: #99997a;
+  text-transform: uppercase; }
+
+#sidebar ul ul ul {
+  border: 0px;
+  margin: 0px;
+  padding: 0px; }
+
+#sidebar ul ul ul li {
+  padding: 0px 0px 0px 0px;
+  background-color: #a0b7b9;
+  text-transform: none; }
+
+.pageheader {
+  font-weight: bold;
+  font-size: 25px;
+  color: #254A88; }
+
+/* Rooms */
+.roomholderdetails {
+  float: left;
+  width: 675px;
+  border: solid 1px grey;
+  text-align: left;
+  /*height:auto;*/
+  background-color: #dfdfce;
+  padding: 10px;
+  margin-top: 10px; }
+
+.roomholder {
+  float: left;
+  width: 650px;
+  border: solid 1px grey;
+  text-align: left;
+  /*height:auto;*/
+  background-color: #dfdfce;
+  padding: 10px;
+  margin-top: 10px; }
+
+.roomdetails {
+  width: 600px;
+  float: left; }
+
+.roomdetails2 {
+  width: 350px;
+  float: left; }
+
+.roomdetailsbelow {
+  width: 300px;
+  margin-top: 10px;
+  float: left; }
+
+.roomdescription {
+  width: 600px;
+  float: left; }
+
+.roomdescription2 {
+  width: 350px;
+  float: left; }
+
+.roompicholder {
+  width: 315px;
+  float: right; }
+
+.pic {
+  float: left;
+  width: 315px; }
+
+.roompicholdernew {
+  width: 315px;
+  float: left; }
+
+.picnew {
+  float: left;
+  width: 315px; }
+
+.textbox {
+  font-size: 8pt; }
+
+.thumbs {
+  width: 315px;
+  margin-left: 8px;
+  margin-top: 4px;
+  float: left; }
+
+.roompicrow {
+  width: 578px;
+  float: left; }
+
+.roomname {
+  font-size: 15px;
+  font-weight: bold; }
+
+.priceholder {
+  width: 248px;
+  /*height:75px;*/
+  float: left;
+  margin-bottom: 10px; }
+
+.pricetable {
+  width: 100%;
+  border: solid 1px #cccccc; }
+
+.pricebold {
+  font-weight: bold; }
+
+.linormal {
+  margin-left: 15px; }
+
+.ModeNew .footer {
+  clear: both;
+  float: left;
+  background: #EBEDF2;
+  margin: 30px 10px 10px 10px;
+  width: 808px;
+  border: solid 1px #8a8a8a; }
+
+/*********************************************************/
+#contactus {
+  list-style: none;
+  text-align: right;
+  font-size: 16px; }
+
+#phone {
+  font-size: 24px; }
+
+#phone a {
+  text-decoration: none;
+  color: #000; }
+
+#reservationbtn a {
+  display: block;
+  box-sizing: border-box;
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  width: 50%;
+  text-align: center;
+  float: right;
+  color: #fff;
+  text-decoration: none;
+  margin: 5px 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7e87ea+100 */
+  background: #1e5799;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFlNTc5OSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3ZTg3ZWEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, #1e5799 0%, #7e87ea 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1e5799), color-stop(100%, #7e87ea));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #1e5799 0%, #7e87ea 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #1e5799 0%, #7e87ea 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #1e5799 0%, #7e87ea 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #1e5799 0%, #7e87ea 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7e87ea',GradientType=0 );
+  /* IE6-8 */ }
+
+#socialmedia ul {
+  list-style: none; }
+
+#socialmedia li {
+  display: inline-block;
+  margin: 0 5px; }
