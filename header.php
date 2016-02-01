@@ -4,6 +4,7 @@
 
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="format-detection" content="telephone=no">
 <!--meta name="Description" content="
 Where a walk along the beach begins just steps from your door.Where the scent of sea air greets you each morning with the sunrise just outside your window..Where majestic Vineyard Sound and famed Martha&#8217;s Vineyard are in view at just a turn of your head...It&#8217;s all here at INN on the SOUND at Falmouth, Cape Cod, Massachusetts, a very special Bed & Breakfast.The Inn sits 45 feet up on a bluff, with panoramic ocean and Martha&#8217;s Vineyard views. Just 70 miles south of Boston and one hour from Providence, the Inn is perfectly located for sightseeing throughout Cape Cod, Martha&#8217;s Vineyard, Nantucket, Newport and Plymouth "/>
 <meta name="keywords" content="Falmouth, Cape Cod, Inn, Bed and Breakfast, Bed Breakfast, Woods Hole, beaches, ocean view"/-->
@@ -12,7 +13,7 @@ Where a walk along the beach begins just steps from your door.Where the scent of
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/library/images/favicon.ico">
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/library/css/style.css" type="text/css" media="screen" />
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<?php if (is_front_page() || is_page('about-the-inn')) : ?><script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/library/js/jquery.cycle.all.js"></script><?php endif; ?>
+<?php if (is_front_page() || is_page('about-the-inn') || is_page_template('room-page.php')) : ?><script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/library/js/jquery.cycle2.min.js"></script><?php endif; ?>
 <?php if (is_page('home')) : ?>
 <script type="text/javascript">
     $(document).ready(function() {

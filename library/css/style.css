@@ -67,6 +67,13 @@ h1 {
   color: #254A88;
   margin-bottom: 10px; }
 
+h2 {
+  color: #254A88;
+  font-size: 16px;
+  font-weight: bold; }
+  h2 a {
+    color: #000; }
+
 ul.left-align li {
   margin-left: 15px; }
 
@@ -199,7 +206,8 @@ header {
             height: auto; } }
       #frame .container .content .col-50 {
         width: 100%;
-        margin: 0; }
+        display: inline-block;
+        margin: 0 0 15px; }
         @media (min-width: 768px) {
           #frame .container .content .col-50 {
             width: 46%;
@@ -218,12 +226,65 @@ header {
           line-height: 1.5; }
       #frame .container .content table {
         border: solid 1px #cccccc;
-        width: 100%; }
+        width: 100%;
+        margin: 0 0 10px; }
         #frame .container .content table.policy-table {
           border: none; }
           #frame .container .content table.policy-table tr td {
             vertical-align: top;
             padding: 0 10px 10px 0; }
+      #frame .container .content .rooms-list {
+        clear: both;
+        float: left;
+        width: 100%;
+        margin-top: 20px; }
+        #frame .container .content .rooms-list div {
+          width: 96%;
+          padding: 15px 2%;
+          margin: 10px 0 0;
+          background: #dfdfce;
+          border: solid 1px grey;
+          display: inline-block; }
+          #frame .container .content .rooms-list div .rooms-list-img {
+            float: left;
+            margin-right: 15px;
+            width: 100%;
+            height: auto; }
+            @media (min-width: 768px) {
+              #frame .container .content .rooms-list div .rooms-list-img {
+                width: auto;
+                height: auto; } }
+          #frame .container .content .rooms-list div table {
+            width: 300px;
+            margin: 10px 0; }
+          #frame .container .content .rooms-list div .additional-views {
+            font-size: 13px;
+            color: #254A88;
+            font-weight: bold; }
+      #frame .container .content .cycle-slideshow.room-slideshow {
+        width: 315px;
+        height: 200px;
+        float: left;
+        margin: 7px 0 0;
+        overflow: hidden; }
+        @media (min-width: 768px) {
+          #frame .container .content .cycle-slideshow.room-slideshow {
+            float: right; } }
+        #frame .container .content .cycle-slideshow.room-slideshow img {
+          width: 100%;
+          height: auto; }
+      #frame .container .content #adv-custom-pager {
+        margin: 4px 0;
+        width: 315px;
+        float: left; }
+        @media (min-width: 768px) {
+          #frame .container .content #adv-custom-pager {
+            float: right; } }
+        #frame .container .content #adv-custom-pager a img {
+          width: 32%;
+          margin: 0 1.5% 0 0; }
+        #frame .container .content #adv-custom-pager a:last-child img {
+          margin: 0; }
 
 /* Sidebar Definitionsbackground:#EBEDF2; */
 #underhead {
