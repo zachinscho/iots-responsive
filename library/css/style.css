@@ -339,15 +339,23 @@ header {
           border-right: 1px solid #cfdad5;
           font-size: 12px;
           display: inline-block; } }
-      #underhead nav a:hover {
-        padding: 6px 6px 6px 4px;
-        font-family: "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
-        font-size: 12px;
-        font-weight: bold;
-        color: #000000;
-        text-align: left;
-        text-decoration: none;
-        background-color: #E6E6B8; }
+      @media (min-width: 768px) {
+        #underhead nav a:hover {
+          padding: 6px 6px 6px 4px;
+          font-family: "Lucida Grande", "Trebuchet MS", "Bitstream Vera Sans", Verdana, Helvetica, sans-serif;
+          font-size: 12px;
+          font-weight: bold;
+          color: #000000;
+          text-align: left;
+          text-decoration: none;
+          background-color: #E6E6B8; } }
+      #underhead nav a:first-child {
+        display: block;
+        visibility: visible; }
+        @media (min-width: 768px) {
+          #underhead nav a:first-child {
+            display: none;
+            visibility: hidden; } }
   #underhead.collapse nav a {
     display: none; }
     @media (min-width: 768px) {

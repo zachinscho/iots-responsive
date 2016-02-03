@@ -77,6 +77,7 @@ Where a walk along the beach begins just steps from your door.Where the scent of
 				<span class="icon-bar"></span>
 			</button>
 			<nav>
+				<a href="#" id="mobile-nav">Menu</a>
 				<a href="<?php echo site_url(); ?>" id="ctl00_A9" title="Home">Home</a>
 				<a href="<?php echo site_url(); ?>/about-the-inn" id="ctl00_A10" title="About The Inn">About The Inn</a>
 				<a href="<?php echo site_url(); ?>/rooms-and-rates" id="ctl00_A11" title="Rates">Rooms and Rates</a>
